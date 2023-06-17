@@ -67,5 +67,9 @@ Teste Processo Seletivo QA - Carrefour
 
     $ allure serve allure-results
 
-    ![Alt text](image-1.png)
-    ![Alt text](image-2.png)
+    ![image](https://github.com/maaarcossilva/TestesAutomatizados-carrefour-teste-E2E/assets/89421174/a28632fa-08b3-402b-ba57-eb7a24cac849)
+    ![image](https://github.com/maaarcossilva/TestesAutomatizados-carrefour-teste-E2E/assets/89421174/e4134deb-07e3-4e03-b469-548dcd8cdc56)
+
+ 6. Pasta com evidencias de teste
+
+    ![image](https://github.com/maaarcossilva/TestesAutomatizados-carrefour-teste-E2E/assets/89421174/bf9e59f1-ec94-4d3f-93c9-5795a868c6d1)

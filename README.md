@@ -8,6 +8,7 @@ Teste Processo Seletivo QA - Carrefour
 
 ## Guia de instalação
 - Todo o código do projeto se encontra no repositório
+- Como terminal utilizei o Hyper
 
 1. Dependências Globais
     * Instalar o [Ruby + Devkit] link para download =>(https://rubyinstaller.org/downloads/)
@@ -32,30 +33,39 @@ Teste Processo Seletivo QA - Carrefour
 	* Será baixado a versão mais atual do chromedriver e geckodriver, ou seja é necessário realizar o update dos navegadores utilizados.
     
 	$ ruby .\webdrivers\
+  
     
 
 ### Executar Testes
-  1. Executando todos os testes
+  1. Ao baixar o projeto será necessario instalar o webdriver, basta utilizar o codigo abaixo, que será criado uma pasta webdrivers na raiz com as configurações do seu navegador
+  
+  $ ruby webdrivers.rb
+
+
+  2. Executando todos os testes
     
 	$ cucumber
   
-  ![image](https://github.com/maaarcossilva/carrefour-teste-E2E/assets/89421174/9f0cbad8-72cb-4b12-bc27-e102880a7d6d)
+  ![Alt text](image.png)
     
   
-  2. Executando um cenário específico usando a tag
+  3. Executando um cenário específico usando a tag
     
 	$ cucumber -t "@marvel"
 
   
-  3. Instalando Allure
+  4. Instalando Allure
   
     * Recomendo utilizar a versão 1.8 ou superior do java
 
-	$ npm install -g allure-commandline --save-dev
+	$ npm install -g allure-commandline --save-dev (Nesse caso precisa ter o node.js instalado no computador)
 
     O Allure ele basicamente encapsula informações coletadas no teste, e gera um relatorio muito completinho
 
   
-  4. Exibindo o relatorio de testes
+  5. Exibindo o relatorio de testes
 
     $ allure serve allure-results
+
+    ![Alt text](image-1.png)
+    ![Alt text](image-2.png)

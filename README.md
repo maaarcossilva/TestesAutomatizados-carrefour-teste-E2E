@@ -1,6 +1,6 @@
 # Projeto de Automação Marvel
 
-## carrefour-teste-E2E
+## TestesAutomatizados-carrefour-teste-E2E
 Testes realizados E2E - Utilizando Ruby - Cucumber - Capybara
 
 ## Carrefour Processo Seletivo QA - Teste Automação Complementar - Bônus 

@@ -1,0 +1,8 @@
+default: --publish-quiet -p html_report -p format-default -p allure
+
+format-default: --no-source --color --format pretty
+pretty: --format pretty
+ci: --format progress
+html_report: --format html --out=results/report.html
+json_report: --format json --out=results/report.json
+allure: --format AllureCucumber::CucumberFormatter --out allure-results
